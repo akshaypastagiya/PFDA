@@ -40,4 +40,4 @@ for nidate in niholidays:
     if datenotunique == False:
         niholidays_uniquedate.append(nidate['date'])
 
-print(f"Unique Bank holidays date in Northern Ireland are: \n {niholidays_uniquedate}")
+print(f"Unique Bank holidays date of Northern Ireland are: \n {niholidays_uniquedate}")

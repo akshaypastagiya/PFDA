@@ -20,4 +20,4 @@ niholidays_date = []
 for date in niholidays:
     niholidays_date.append(date['date']) 
 
-print(f"Bank holidays date in Northern Ireland are: \n {niholidays_date}")
+print(f"Bank holidays date of Northern Ireland are: \n {niholidays_date}")
