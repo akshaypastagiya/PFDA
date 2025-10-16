@@ -18,6 +18,7 @@ niholidays_date = []
 
 # get bankholidays date from data
 for date in niholidays:
-    niholidays_date.append(date['date']) 
+    niholiday = (f"{date['title']} on {date['date']}")
+    niholidays_date.append(niholiday) 
 
 print(f"Bank holidays date of Northern Ireland are: \n {niholidays_date}")

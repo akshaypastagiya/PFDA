@@ -23,13 +23,17 @@ scoholidays = data['scotland']['events']
 
 # get unique bankholidays date for Northen Ireland
 niholidays_uniquedate = []
+datenotunique = False
 for nidate in niholidays:
+    # Search NI Holidayes date in england-and-wales holidays date.
     for engdate in engholidays:
         if engdate['date'] == nidate['date']:
             datenotunique = True
             break
         else:
             datenotunique = False
+
+    # If date not found in england-and-wales holidays date then search date in scotland holiday date.
     if datenotunique == False:
         for scodate in scoholidays:
             if scodate['date'] == nidate['date']:
@@ -37,7 +41,9 @@ for nidate in niholidays:
                 break
             else:
                 datenotunique = False
+    # If date not found in england-and-wales and scotland holiday date then add those date as a Northern Ireland Unique Holidays List
     if datenotunique == False:
-        niholidays_uniquedate.append(nidate['date'])
+        niholiday = (f"{nidate['title']} on {nidate['date']}")
+        niholidays_uniquedate.append(niholiday)
 
 print(f"Unique Bank holidays date of Northern Ireland are: \n {niholidays_uniquedate}")
