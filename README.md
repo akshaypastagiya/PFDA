@@ -12,9 +12,13 @@ Read and Write the JSON and CSV file
 #### Assessment-01
 This Folder is to complet the assesment to get the understanding of Programing For Data Analystics Module
 #### Assessment-02
-Assignment done Display NI Bank Holiday
+Assignment done Display Northen Ireland Bank Holiday
 Assisment done to display the Unique Bank Holiday in Northen Ireland
 
 
 ### Lacture - 3
 Read Data from URL
+#### Assignment03
+In this assignment need to create pie chart for the domain 
+Domain csv file is on https://drive.google.com/uc?id=1AWPf-pJodJKeHsARQK_RHiNsE8fjPCVK&export=download
+To read file we will be using pands
