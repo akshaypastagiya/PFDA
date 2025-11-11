@@ -22,3 +22,13 @@ Read Data from URL
 In this assignment need to create pie chart for the domain 
 Domain csv file is on https://drive.google.com/uc?id=1AWPf-pJodJKeHsARQK_RHiNsE8fjPCVK&export=download
 To read file we will be using pands
+
+### Lacture - 4 
+Regular Expressions
+In this manuplate the data to make data in to required meaningful data.
+By completing this lacture, we can learn how to removed unwanted data from the dataframe.
+
+### Lacture - 5
+Analysis of the data
+#### Assignment05
+
