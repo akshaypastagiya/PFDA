@@ -4,3 +4,4 @@ requests
 pandas
 s3fs
 matplotlib
+seaborn
