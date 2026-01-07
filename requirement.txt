@@ -1,5 +1,3 @@
-python
-csv
 requests
 pandas
 s3fs
